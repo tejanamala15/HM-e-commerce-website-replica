@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M | Become a member</title>
+    <link rel="stylesheet" href="SignIn.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        #container {
+            overflow: scroll;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="container">  
+        <form class="form">
+            <div class="close-btn">&times</div>
+            
+            <div id="lower-box">
+                <h2>BECOME A MEMBER</h2>
+                <hr class="line">
+                <div class="para">
+                    <p>Become a member — don’t miss out on deals, offers, discounts and bonus vouchers.</p>
+                </div> 
+
+                       
+                <p class="info">Email*</p> <br>
+                <input class="input-box" id="email"type="email" placeholder="" />
+              
+               
+                
+                <p class="info paral">Mobile Number *</p><br>
+                <div class="mobile">
+                    <select id="select">
+                        <option>IN (+91)</option>
+                        <option>AD (+376)</option>
+                        <option>AE (+971)</option>
+                        <option>AG (+1)</option>
+                        <option>AI (+1)</option>
+                        <option>AL (+355)</option>
+                        <option>AM (+374)</option>
+                        <option>AR (+54)</option>
+                        <option>AT (+43)</option>
+                        <option>AU (+61)</option>
+                    </select>
+                    <input class="input-box mob" id="mobile" type="password" placeholder="" />
+                </div>
+               
+          
+                
+                    <input class="input-box" id="next" type="submit" value="NEXT"/><br>
+
+                <div class="checking">
+                    <input id="checkbox" type="checkbox"/>
+                    <p class="paral">Yes, email me offers, style updates, and special invites to sales and events.</p>
+                    
+                </div>
+                <p class ="paral">Wish your inbox was more stylish? No problem, just subscribe to our newsletter. Find out what's hot and happening in the world of fashion, beauty, and home decor. Plus, you'll get bonus vouchers, birthday offers, and special invites to sales and events – straight to your inbox!</p>
+               
+                    <hr class="line line2">
+                <p>Already Have an Account?</p>
+            
+            
+
+                <button>SIGN IN</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
+
+<script>
+
+var form = document.querySelector("form");
+    
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log("clicked")
+    alert("WELCOME TO H&M")
+    
+      window.location.href="SignIn.html"
+    
+
+
+var data = {
+  useremail: form.email.value,
+  usermobileNo : form.mobile.value
+}
+
+console.log(data)
+localStorage.setItem("userEmail",JSON.stringify(data));
+
+})
+
+
+</script>
