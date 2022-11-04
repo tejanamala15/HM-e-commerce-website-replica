@@ -1,6 +1,6 @@
 <h1>H&M E-Commerce Web Application Replica</h1>
 
-H & M Hennes & Mauritz AB (H&M) is a Swedish multinational retail-clothing company, known <br> for its fast-fashion clothing for men, women, teenagers, and children.
+H & M Hennes & Mauritz AB (H&M) is a Swedish multinational retail-clothing company, known <br> for its fast-fashion clothing for men, women, teenagers, and children. <br>
 Used HTML, CSS, Javascript.
 Become a member, login, Products, Cart and Payments, Order Confirmation <br> pages and sorting the products are the main features.
 
