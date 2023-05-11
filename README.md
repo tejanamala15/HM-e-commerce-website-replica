@@ -2,7 +2,7 @@
 
 - H & M Hennes & Mauritz AB (H&M) is a Swedish multinational retail-clothing company, known <br> for its fast-fashion clothing for men, women, teenagers, and children. 
 - Used HTML, CSS, Javascript.
-- Become a member, login, Products, Cart and Payments, Order Confirmation <br> pages and sorting the products are the main features.
+- Become a member, login, Products, Cart and Payments, Order Confirmation <br> pages and sorting the products are the main features
 
 
 
